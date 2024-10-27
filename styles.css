@@ -1,0 +1,89 @@
+body{
+background-color: black;
+}
+
+h1{
+text-align: center;
+color: white;
+}
+
+/*Homepage Picture*/
+.hp{
+width: 40%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+/*View More Button*/
+.vmb{
+color: white;
+text-align: center;
+display: block;
+width: 160px;
+margin-left: auto;
+margin-right: auto;
+border: 3px solid red;
+background-color: red;
+border-color: hsl(0, 77%, 28%);
+font-size: 150%;
+text-decoration: none;
+}
+.vmba{
+color:white;
+text-decoration: none;
+}
+
+.vmb:hover{
+font-size: 170%;
+width: 180px;
+}
+
+/*Navigation Bar*/
+
+h2{
+text-align: center;
+color: white;
+}
+
+.nb:hover{
+text-shadow: 3px 3px 5px white;
+font-weight: bold;
+}
+
+.nb{
+color: white;
+text-decoration: none;
+}
+
+
+/*My Creations Gallery*/
+
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.gallery {
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 280px;
+}
+
+div.desc {
+padding: 15px;
+text-align: right;
+color: white;
+}
+
+/*Additional Links*/
+.al{
+background-color: gray;
+clear: left;
+color: white;
+}
